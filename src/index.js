@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App';  
+// App.js 에서 사용자 정의 태그(컴포넌트)를 불러와서 사용하겠습니다.
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
