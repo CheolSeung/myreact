@@ -5,7 +5,7 @@ import App2 from './App2';
 import Ex01 from './compo/Ex01';
 import Ex02 from './compo/Ex02';
 
-function App() {
+function App() {    // App이라는 사용자 정의 태그(컴포넌트)
   const name = "승환";
   const data = "ex01";
   // return 안에 사용자 정의태그 구조를 작성할 수 있다
