@@ -4,7 +4,6 @@ import Join from './compo/Join';
 import Login from './compo/Login';
 import Home from './compo/Home';
 import {Routes, Route} from 'react-router-dom';  // 주소값 부여
-import {useNavigate} from 'react-router-dom';
 
 //redux 재료 import
 import {createStore} from 'redux';
