@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Ex01 from './compo/Ex01';
 import Header from './compo/Header';
-import Nav from './compo/Nav';
 import Home from './compo/Home';
 import Login from './compo/Login';
 import Result from './compo/Result';
@@ -14,7 +13,6 @@ function App() {
     // <Ex01></Ex01>
     <>
       <Header></Header>
-      <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>

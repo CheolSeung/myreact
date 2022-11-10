@@ -4,10 +4,20 @@ function Header() {
 
     return(
         <>
-            <div class="Headerdiv">
-                <Link to="/" class="Header">은근 봄철</Link>
-                <p>김새봄 이은찬 이철승 조성근</p>
-            </div>
+            <header class="Header">
+                <div class="Headerdiv">
+                    <h1>
+                        <Link to="/" class="Headerh1">은근 봄철</Link>
+                    </h1>
+                    <nav class="Headernav">
+                        <ul class="Headerul">
+                           <li><Link to="#">회원정보</Link></li>
+                            <li><Link to="#">쇼핑하기</Link></li>
+                            <li><Link to="#">장바구니</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
         </>
     )
 }
